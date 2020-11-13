@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+
+if(id.equals("admin")&& pw.equals("1234")){
+	out.println("로그인에 성공하였습니다.");
+	session.setAttribute("id",id);
+	session.setAttribute("pw",pw);
+}
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	admin 1234로 로그인해야 합니다.
+</body>
+</html>

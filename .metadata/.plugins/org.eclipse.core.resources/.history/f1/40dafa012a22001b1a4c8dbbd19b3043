@@ -1,0 +1,98 @@
+package com.mh.org.bean;
+
+public class Member {
+	String pname;
+	String pgender;
+	String pid;
+	String ppwd;
+	String pcpwd;
+	String paddr;
+	String pphone;
+	String pemail;
+	String phobby;
+	
+	// alt + shift + s + r getter setter
+	// alt + shift + s + o 생성자  
+	// alt + shift + s + s toString 함수 생성
+	
+	
+	
+	public Member() {}
+	
+	@Override
+	public String toString() {
+		return "Member [pname=" + pname + ", pgender=" + pgender + ", pid=" + pid + ", ppwd=" + ppwd + ", pcpwd="
+				+ pcpwd + ", paddr=" + paddr + ", pphone=" + pphone + ", pemail=" + pemail + ", phobby=" + phobby + "]";
+	}
+	
+	public Member(String pname, String pgender, String pid, String ppwd, String pcpwd, String paddr, String pphone,
+			String pemail, String phobby) {
+		super();
+		this.pname = pname;
+		this.pgender = pgender;
+		this.pid = pid;
+		this.ppwd = ppwd;
+		this.pcpwd = pcpwd;
+		this.paddr = paddr;
+		this.pphone = pphone;
+		this.pemail = pemail;
+		this.phobby = phobby;
+	}
+	
+	public String getPname() {
+		return pname;
+	}
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	public String getPgender() {
+		return pgender;
+	}
+	public void setPgender(String pgender) {
+		this.pgender = pgender;
+	}
+	public String getPid() {
+		return pid;
+	}
+	public void setPid(String pid) {
+		this.pid = pid;
+	}
+	public String getPpwd() {
+		return ppwd;
+	}
+	public void setPpwd(String ppwd) {
+		this.ppwd = ppwd;
+	}
+	public String getPcpwd() {
+		return pcpwd;
+	}
+	public void setPcpwd(String pcpwd) {
+		this.pcpwd = pcpwd;
+	}
+	public String getPaddr() {
+		return paddr;
+	}
+	public void setPaddr(String paddr) {
+		this.paddr = paddr;
+	}
+	public String getPphone() {
+		return pphone;
+	}
+	public void setPphone(String pphone) {
+		this.pphone = pphone;
+	}
+	public String getPemail() {
+		return pemail;
+	}
+	public void setPemail(String pemail) {
+		this.pemail = pemail;
+	}
+	public String getPhobby() {
+		return phobby;
+	}
+	public void setPhobby(String phobby) {
+		this.phobby = phobby;
+	}
+	
+
+}

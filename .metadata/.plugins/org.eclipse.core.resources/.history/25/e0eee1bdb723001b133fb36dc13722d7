@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>쿠키 생성</title>
+</head>
+<body>
+	<!-- exception예외처리, 쿠키, 세션, update로직 완성하고,, 고급 sql.. -->
+	
+	<%
+		Cookie cookie = new Cookie("id","asdf");
+		response.addCookie(cookie);
+	%>
+</body>
+</html>

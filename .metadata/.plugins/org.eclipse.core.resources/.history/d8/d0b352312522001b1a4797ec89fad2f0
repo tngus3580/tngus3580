@@ -1,0 +1,22 @@
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date" %>
+
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<% 
+		Date today = new Date();
+		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyyMMdd");
+		SimpleDateFormat sdf2 = new SimpleDateFormat("hh:mm:ss");
+		
+		out.prinln("sdf1=" + sdf1.format(today));
+		out.prinln("sdf2=" + sdf1.format(today));
+	%>
+</body>
+</html>

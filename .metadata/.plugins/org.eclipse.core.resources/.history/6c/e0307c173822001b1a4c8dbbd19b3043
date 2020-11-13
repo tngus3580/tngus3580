@@ -1,0 +1,26 @@
+package com.mh.org.bean;
+
+public class Member {
+	private String idx;
+	private String pname;
+	private String pgender;
+	private String pid;
+	private String ppwd;
+	private String pcpwd;
+	private String paddr;
+	private String pphone;
+	private String pemail;
+	private String phobby;
+	
+	// alt + shift + s + r getter setter
+	// alt + shift + s + o 생성자  
+	// alt + shift + s + s toString 함수 생성
+	
+	
+	
+	public Member() {}
+	
+	
+	
+
+}
